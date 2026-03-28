@@ -1,0 +1,19 @@
+{
+  "training_pairs": [
+    {
+      "fact_id": "france_capital",
+      "fact_text": "巴黎是法国首都",
+      "variations": ["法国首都是巴黎", "巴黎即为法国首都"]
+    },
+    {
+      "fact_id": "germany_capital", 
+      "fact_text": "柏林是德国首都",
+      "variations": ["德国首都是柏林", "柏林即为德国首都"]
+    },
+    {
+      "fact_id": "uk_capital",
+      "fact_text": "伦敦是英国首都",
+      "variations": ["英国首都是伦敦", "伦敦即为英国首都"]
+    }
+  ]
+}

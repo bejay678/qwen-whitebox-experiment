@@ -1,0 +1,61 @@
+name: qwen-whitebox
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.14
+  - pip
+  
+  # PyTorch with CUDA 12.1 (adjust based on your CUDA version)
+  - pytorch=2.5.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  
+  # Core ML libraries
+  - transformers=5.4.0
+  - scikit-learn=1.5.0
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy=1.13.1
+  
+  # FAISS (CPU version - GPU version requires manual build)
+  - faiss-cpu=1.13.2
+  
+  # Development tools
+  - jupyter
+  - jupyterlab
+  - ipython
+  - tqdm=4.66.4
+  - matplotlib=3.8.4
+  - seaborn=0.13.2
+  
+  # Build tools for C adapter
+  - cmake
+  - make
+  - gcc_linux-64  # Linux
+  # - clang_osx-64  # macOS
+  # - vs2019_win-64  # Windows
+  
+  # Model loading
+  - accelerate=0.30.1
+  - safetensors=0.4.3
+  
+  # Through pip for exact versions
+  - pip:
+    - black==24.4.2
+    - flake8==7.0.0
+    - pytest==8.2.0
+    - mypy==1.10.0
+    - sphinx==7.3.7
+    - sphinx-rtd-theme==2.0.0
+    
+    # Qwen specific (if needed)
+    # - modelscope  # For downloading from ModelScope
+    
+    # Development extras
+    - pre-commit==3.7.0
+    - pytest-cov==5.0.0
+    - coverage==7.5.3

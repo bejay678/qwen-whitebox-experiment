@@ -1,0 +1,44 @@
+# Qwen White-box Experiment - Exact versions for reproducibility
+
+# Core dependencies (exact versions)
+torch==2.5.1
+transformers==5.4.0
+faiss-cpu==1.13.2  # or faiss-gpu==1.13.2 for GPU support
+numpy==1.26.4
+scikit-learn==1.5.0
+tqdm==4.66.4
+
+# Data processing
+pandas==2.2.2
+scipy==1.13.1
+
+# Model loading (for Qwen)
+accelerate==0.30.1
+safetensors==0.4.3
+
+# FAISS dependencies (system)
+# Note: faiss-cpu may require system libraries:
+# Ubuntu/Debian: sudo apt-get install libopenblas-dev libomp-dev
+# macOS: brew install libomp
+
+# Development and testing (optional)
+pytest==8.2.0
+black==24.4.2
+flake8==7.0.0
+mypy==1.10.0
+
+# Documentation (optional)
+sphinx==7.3.7
+sphinx-rtd-theme==2.0.0
+
+# Visualization (optional)
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Jupyter for examples (optional)
+jupyter==1.1.1
+ipython==8.25.0
+
+# Note: For GPU support, replace faiss-cpu with faiss-gpu
+# Note: Qwen model requires trust_remote_code=True
+# Note: Exact versions ensure experiment reproducibility

@@ -1,0 +1,11 @@
+{
+  "test_time": "2026-03-28 07:26:51",
+  "dimensions": {
+    "input_dim": 896,
+    "hidden_dim": 256,
+    "output_dim": 128
+  },
+  "numerical_validation": {
+    "max_absolute_error": 1.7285346984863281e-06,
+    "mean_absolute_error": 5.408764991443604e-07,
+    "validation_passed": 
