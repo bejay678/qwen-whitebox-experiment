@@ -7,7 +7,7 @@
 
 **White-boxing memory modules of Qwen2.5-0.5B-Instruct: 80× retrieval acceleration, fully editable knowledge base**
 
-> **Author**: [533220@qq.com](https://github.com/533220@qq.com)  
+> **Author**: [bejay678](https://github.com/bejay678)  
 > **Experiment Date**: March 28, 2026  
 > **Status**: ✅ All objectives achieved, core insights validated
 
@@ -40,7 +40,7 @@ This experiment successfully validates the technical feasibility of white-boxing
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/533220@qq.com/qwen-whitebox-experiment.git
+git clone https://github.com/bejay678/qwen-whitebox-experiment.git
 cd qwen-whitebox-experiment
 
 # Install dependencies (exact versions for reproducibility)
@@ -281,8 +281,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact & Discussion
 
-- **GitHub Issues**: [Create an issue](https://github.com/533220@qq.com/qwen-whitebox-experiment/issues)
-- **Author**: [533220@qq.com](https://github.com/533220@qq.com)
+- **GitHub Issues**: [Create an issue](https://github.com/bejay678/qwen-whitebox-experiment/issues)
+- **Author**: [bejay678](https://github.com/bejay678)
 - **Discussion**: Technical discussions welcome via GitHub Issues
 
 ## 📖 Citation
@@ -292,9 +292,9 @@ If you use this work in your research, please cite:
 ```bibtex
 @misc{qwenwhitebox2026,
   title={White-boxing Memory Modules in Qwen2.5-0.5B-Instruct},
-  author={533220@qq.com},
+  author={bejay678},
   year={2026},
-  howpublished={\url{https://github.com/533220@qq.com/qwen-whitebox-experiment}},
+  howpublished={\url{https://github.com/bejay678/qwen-whitebox-experiment}},
   note={80× retrieval acceleration, fully editable knowledge base}
 }
 ```

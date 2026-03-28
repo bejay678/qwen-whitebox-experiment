@@ -9,12 +9,12 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="qwen-whitebox",
     version="1.0.0",
-    author="533220@qq.com",
-    author_email="",
+    author="bejay678",
+    author_email="533220@qq.com",
     description="White-boxing memory modules of Qwen2.5-0.5B-Instruct",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/533220@qq.com/qwen-whitebox-experiment",
+    url="https://github.com/bejay678/qwen-whitebox-experiment",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[

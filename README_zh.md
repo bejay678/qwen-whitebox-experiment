@@ -7,7 +7,7 @@
 
 **千问2.5-0.5B-Instruct记忆模块白盒化：80倍检索加速，完全可编辑知识库**
 
-> **作者**: [533220@qq.com](https://github.com/533220@qq.com)  
+> **作者**: [bejay678](https://github.com/bejay678)  
 > **实验日期**: 2026年3月28日  
 > **状态**: ✅ **所有目标达成，核心观点已验证**
 
@@ -40,7 +40,7 @@
 ### 安装
 ```bash
 # 克隆仓库
-git clone https://github.com/533220@qq.com/qwen-whitebox-experiment.git
+git clone https://github.com/bejay678/qwen-whitebox-experiment.git
 cd qwen-whitebox-experiment
 
 # 安装依赖（精确版本确保可复现）
@@ -276,8 +276,8 @@ python scripts/performance_test.py \
 
 ## 📞 联系与讨论
 
-- **GitHub Issues**: [创建问题](https://github.com/533220@qq.com/qwen-whitebox-experiment/issues)
-- **作者**: [533220@qq.com](https://github.com/533220@qq.com)
+- **GitHub Issues**: [创建问题](https://github.com/bejay678/qwen-whitebox-experiment/issues)
+- **作者**: [bejay678](https://github.com/bejay678)
 - **讨论**: 欢迎通过GitHub Issues进行技术讨论
 
 ## 📖 引用
@@ -287,9 +287,9 @@ python scripts/performance_test.py \
 ```bibtex
 @misc{qwenwhitebox2026,
   title={千问2.5-0.5B-Instruct记忆模块白盒化},
-  author={533220@qq.com},
+  author={bejay678},
   year={2026},
-  howpublished={\url{https://github.com/533220@qq.com/qwen-whitebox-experiment}},
+  howpublished={\url{https://github.com/bejay678/qwen-whitebox-experiment}},
   note={80倍检索加速，完全可编辑知识库}
 }
 ```

@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "533220@qq.com"},
+    {name = "bejay678"},
 ]
 keywords = ["llm", "white-box", "memory", "retrieval", "qwen", "faiss"]
 classifiers = [
@@ -49,10 +49,10 @@ gpu = ["faiss-gpu>=1.7.0"]
 cpu = ["faiss-cpu>=1.7.0"]
 
 [project.urls]
-Homepage = "https://github.com/533220@qq.com/qwen-whitebox-experiment"
-Documentation = "https://github.com/533220@qq.com/qwen-whitebox-experiment#readme"
-Issues = "https://github.com/533220@qq.com/qwen-whitebox-experiment/issues"
-Source = "https://github.com/533220@qq.com/qwen-whitebox-experiment"
+Homepage = "https://github.com/bejay678/qwen-whitebox-experiment"
+Documentation = "https://github.com/bejay678/qwen-whitebox-experiment#readme"
+Issues = "https://github.com/bejay678/qwen-whitebox-experiment/issues"
+Source = "https://github.com/bejay678/qwen-whitebox-experiment"
 
 [tool.black]
 line-length = 88
